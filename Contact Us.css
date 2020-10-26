@@ -1,0 +1,39 @@
+
+body{
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+.Contact{
+	font-size:20px;
+	text-align:right;
+	  box-align:left;
+	  width:70%;
+	  border-radius: 1px;
+	  background-color:Grey;
+	  display: inline-block;
+	  width:100%;
+	  color:white;
+}
+input[type=text], select, textarea {
+	  width:80%;
+	  padding: 2px;  
+	  border: 1px solid #ccc; 
+	  border-radius: 4px; 
+	  box-align : center;
+	  text-align:center;
+	  margin-top: 6px; 
+	  margin-bottom: 16px; 
+	  display: right;
+	 resize: horizontally;
+ 
+}
+
+
+button{
+	color: white;
+	padding: 10px 10px;
+	background-color: black;
+	
+}
+
