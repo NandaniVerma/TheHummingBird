@@ -1,91 +1,99 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="Navigation Bar.css" rel="stylesheet"/>
-<link href="home.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="new1.html"/>
-
- <script src="clock.js" defer=""></script> 
-</head>
-<body onload="startTime()">
-
-<!--Navigation Bar-->
-<div>
-<ul>
-	<div class="left"><li>Portfolio</li></div>
-	<li><a href="#"><i class="fa fa-fw fa-user"></i>Log In</a></li>
-    <li><a href="Contact Us.html"><i class="fa fa-fw fa-search"></i>Contact Us</a></li>
-    <li><a class="active"href="Home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
-</ul>
-</div>
-
-<!--
-To Display Name and background picture
--->
-<div class="Port">
-  <div class="caption">
-  <span class="border">Portfolio</span><br><br><br><br><br>
-  <h3 style="color:Black"> Click any category to explore portfolio designs!</h3>
-  </div>
-</div>
-
-<div class="main">
-<!-- Portfolio Gallery Grid -->
-
-<div class="row">
-
-  <div class="column">
-    <div class="content">
-	  <a href="new1.html">
-      <img src="Photography.jpg" alt="Photography" style="width:100%"></a>
-      <h3>Photography Portfolio</h3>
-      <p>This Column has pictures related to the photography and can we used to create the portfolio for photography</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="content">
-      <img src="School.jpg" alt="SCHOOL" style="width:100%">
-      <h3>School</h3>
-      <p>Templates to make a portfolio for a school project</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="content">
-      <img src="Work.png" alt="Work" style="width:100%">
-      <h3> Work</h3>
-      <p>To Create a Portfolio to showcase your work</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="different types.png" alt="Different Types" style="width:100%">
-      <h3>Other Types</h3>
-      <p>Templates for different types of portfolios</p>
-    </div>
-  </div>
-</div>
-
-<!-- END MAIN -->
-</div>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title>Portfolio Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="Navigation Bar.css" rel="stylesheet"/>
+	<link href="home.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link href="Photography.html"/>
+	<link href="School.html"/>
+	<link href="Work.html"/>
+	<link href="SignUp.html"/>
 
 
+	 <script src="clock.js" defer=""></script> 
+	</head>
+	<body onload="startTime()">
 
+	<!--Navigation Bar-->
+	<div>
+	<ul>
+		<div class="left"><li>Portfolio</li></div>
+		<!--<li><a href="SignUp.html"><i class="fa fa-fw fa-user"></i>SignUp</a></li> -->
+		<li><a href="Contact Us.html"><i class="fa fa-fw fa-search"></i>Contact Us</a></li>
+		<li><a class="active"href="Home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+	</ul>
+	</div>
+
+	<!--
+	To Display Name and background picture
+
+	-->
+
+
+	  
+	<!-- Portfolio Gallery Grid -->
+	<div class="main"> 
+	<div class="row">
+
+		<div class="column">
+		<div class="content">
+		  <a href="Photography.html">
+		  <img src="Icon/Photography.jpg" alt="Photography" style="width:100%" ></a>
+		  <h3>Photography Portfolio</h3>
+		  <p>There are few templates for photography in this column. You can download them and edit them according 
+		  to your needs, or you can contact us and we will help you.</p>
+		</div>
+	  </div>
+	 <!-- 
+	  <div class="column">
+		<div class="content">
+		 <a href="School.html">
+		  <img src="Icon/Portfolio.jpg" alt="SCHOOL" style="width:75%"></a>
+		  <h3>School</h3>
+		  <p>Templates to make a portfolio for a school project</p>
+		</div>
+	  </div>
+	  -->
+	  
+	  <div class="column">
+		<div class="content">
+			 <a href="Work.html">
+		  <img src="Icon/work.jpg" alt="Work" style="width:100%"></a>
+		  <h3> Templates</h3>
+		  <p>Templates to create a resume, Blog and Web page. You can download these templates and can help youreself or simply contact us. We are always
+		  there for you.</p>
+		</div>
+	  </div>
+	 
+	  <div class="column">
+		<div class="content">
+			 <a href="Group Work.html">
+		  <img src="Icon/artist-icon.png" alt="Work" style="width:100%"></a>
+		  <h3> Artist</h3>
+		  <p>To Create a Portfolio to showcase your work</p>
+		</div>
+	  </div>
 	
-			
-<!--Footer containing important information about Copyrights and Also displays current time-->
+	  
+	</div>
 
-<footer class="foot">
-<p> All images are copyrighted. </p>
-<p>Current Time</p>
- <p id="txt"></p>
-  </footer>
+	<!-- END MAIN -->
+	</div>
+
+				
+	<!--Footer containing important information about Copyrights and Also displays current time-->
+
+	<footer class="foot">
+	<p> All images are copyrighted. </p>
+	<p>Current Time</p>
+	 <p id="txt"></p>
+	  </footer>
 
 
-
-</body>
-</html>
+	</body>
+	</html>
